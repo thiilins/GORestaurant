@@ -12,10 +12,8 @@ export default function Dashboard({}) {
   const [modalOpen, setModalOpen] = useState(false);
   const [editModalOpen, setEditModalOpen] = useState(false);
   useEffect(() => {
-    async function updateFoood() {
-      const response = await api.get("/foods");
-      setFoods(response.data);
-    }
+  api.get("/foods").then( response => setFoods(response.data))
+     
   }, []);
 
   const handleAddFood = async (food) => {
