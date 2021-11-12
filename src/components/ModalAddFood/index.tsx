@@ -1,24 +1,9 @@
 import { useRef } from "react";
 import { FiCheckSquare } from "react-icons/fi";
-
+import { FoodDataType, ModalAddFoodProps } from "../../types";
 import { Form } from "./styles";
 import Modal from "../Modal";
 import Input from "../Input";
-
-interface FoodType {
-  id: number;
-  image: string;
-  name: string;
-  price: string;
-  description: string;
-  available: boolean;
-}
-type FoodDataType = Omit<FoodType, "id" | "available">;
-interface ModalAddFoodProps {
-  isOpen: boolean;
-  setIsOpen: () => void;
-  handleAddFood: (data: FoodDataType) => void;
-}
 
 export default function ModalAddFood({
   isOpen,

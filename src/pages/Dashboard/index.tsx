@@ -6,16 +6,8 @@ import Food from "../../components/Food";
 import ModalAddFood from "../../components/ModalAddFood";
 import ModalEditFood from "../../components/ModalEditFood";
 import { FoodsContainer } from "./styles";
+import { FoodType, FoodDataType } from "../../types";
 
-interface FoodType {
-  id: number;
-  image: string;
-  name: string;
-  price: string;
-  description: string;
-  available: boolean;
-}
-type FoodDataType = Omit<FoodType, "id" | "available">;
 export default function Dashboard() {
   const [foods, setFoods] = useState<FoodType[]>([]);
   const [editingFood, setEditingFood] = useState<FoodType>({} as FoodType);

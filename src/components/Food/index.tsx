@@ -2,21 +2,8 @@ import { FiEdit3, FiTrash } from "react-icons/fi";
 import { useState } from "react";
 import { Container } from "./styles";
 import { api } from "../../services/api";
-interface FoodType {
-  id: number;
-  image: string;
-  name: string;
-  price: string;
-  description: string;
-  available: boolean;
-}
+import { FoodProps } from "../../types";
 
-
-interface FoodProps {
-  food: FoodType;
-  handleEditFood: (food: FoodType) => void;
-  handleDelete: (id: number) => void;
-}
 export default function Food({
   food,
   handleEditFood,
