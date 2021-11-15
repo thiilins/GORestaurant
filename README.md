@@ -42,8 +42,7 @@
 
 ## :dart: Sobre o desafio ##
 
-Desafio 2 do módulo 2 da trilha de ReactJS da Rocketseat onde o objetivo é praticar refatoração de uma aplicação de classe para função e de javascript para typescript. 
-Essa será uma aplicação já funcional onde o seu principal objetivo é realizar dois processos de migração: de Javascript para Typescript e de Class Components para Function Components.
+Desafio 2 do módulo 2 da trilha de ReactJS da Rocketseat, essa será uma aplicação já funcional onde o seu principal objetivo é realizar dois processos de migração: de Javascript para Typescript e de Class Components para Function Components.,
  
  &#xa0; 
 
