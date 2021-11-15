@@ -21,13 +21,6 @@
 
 </p>
 
-<!-- Status -->
-
-<!-- <h4 align="center"> 
-	🚧  01 Github Explorer 🚀 Em construção...  🚧
-</h4> 
-
-<hr> -->
 
 <p align="center">
   <a href="#dart-sobre-o-desafio">Sobre</a> &#xa0; | &#xa0; 
@@ -52,6 +45,8 @@
 Nesse desafio, você deverá criar uma aplicação para treinar o que aprendeu até agora no ReactJS
 
 Essa será uma aplicação já funcional onde o seu principal objetivo é realizar dois processos de migração: de Javascript para Typescript e de Class Components para Function Components.
+ 
+ &#xa0; 
 
 ## :rocket: Tecnologias ##
 
@@ -62,9 +57,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 
+ &#xa0; 
+
 ## :white_check_mark: Pré requisitos ##
 
 Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.com) e o [Node](https://nodejs.org/en/) instalados em sua maquina.
+
+ &#xa0; 
 
 ## :checkered_flag: Começando ##
 
@@ -84,6 +83,7 @@ $ yarn start
 # O app vai inicializar em <http://localhost:3000>
 ```
 
+ &#xa0; 
 
 ## :thinking: Como contribuir
 
@@ -93,6 +93,8 @@ $ yarn start
 - Faça push para a sua branch: `git push origin minha-feature`.
 
 Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+
+ &#xa0; 
 
 ## :memo: Licença ##
 
