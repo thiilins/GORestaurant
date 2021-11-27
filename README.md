@@ -10,7 +10,7 @@
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=04D361&labelColor=000000?color=04D361&style=for-the-badge" alt="PRs welcome!" />
 <img  alt="Repo size"  src="https://img.shields.io/github/repo-size/thiilins/refactoring-classes-ts?color=04D361&style=for-the-badge">
-<img  alt="GitHub top language"  src="https://img.shields.io/github/languages/top/thiilins/refactoring-classes-ts?color=04d361&style=for-the-badge"> <img  alt="GitHub language count"  src="https://img.shields.io/github/languages/count/thiilins/refactoring-classes-ts?color=04d361&style=for-the-badge"><img alt="Licença" src="https://img.shields.io/github/license/thiilins/refactoring-classes-ts?color=04d361&style=for-the-badge">
+<img  alt="GitHub top language"  src="https://img.shields.io/github/languages/top/thiilins/refactoring-classes-ts?color=04d361&style=for-the-badge"> <img  alt="GitHub language count"  src="https://img.shields.io/github/languages/count/thiilins/refactoring-classes-ts?color=04d361&style=for-the-badge"> <img alt="Licença" src="https://img.shields.io/github/license/thiilins/refactoring-classes-ts?color=04d361&style=for-the-badge">
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/thiilins/refactoring-classes-ts?color=04d361&style=for-the-badge" /> -->
 
