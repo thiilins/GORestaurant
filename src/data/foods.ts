@@ -1,5 +1,4 @@
-{
-  "foods": [
+export default  [
     {
       "id": 1,
       "name": "Ao molho madeira",
@@ -25,4 +24,3 @@
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
     }
   ]
-}

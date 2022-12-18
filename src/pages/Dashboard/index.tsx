@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-
+import { useFoods } from "../../contexts/FoodContext";
 import Header from "../../components/Header";
-import { api } from "../../services/api";
+
 import Food from "../../components/Food";
 import ModalAddFood from "../../components/ModalAddFood";
 import ModalEditFood from "../../components/ModalEditFood";
@@ -9,23 +9,22 @@ import { FoodsContainer } from "./styles";
 import { FoodType, FoodDataType } from "../../types";
 
 export default function Dashboard() {
+  const { addFood, deleteFood, toggleAvailable, updateFood, getFoods } =
+    useFoods();
   const [foods, setFoods] = useState<FoodType[]>([]);
   const [editingFood, setEditingFood] = useState<FoodType>({} as FoodType);
   const [modalOpen, setModalOpen] = useState(false);
   const [editModalOpen, setEditModalOpen] = useState(false);
 
   useEffect(() => {
-    async function getFoods() {
-      const response = await api.get("/foods");
-
-      setFoods(response.data);
-    }
-    getFoods();
+    const response = getFoods();
+    setFoods(response.data);
   }, []);
 
-  async function handleAddFood(food: FoodDataType): Promise<void> {
+  const handleAddFood = (food: FoodDataType) => {
     try {
-      const response = await api.post("/foods", {
+      const response = addFood({
+        id: 0,
         ...food,
         available: true,
       });
@@ -34,11 +33,11 @@ export default function Dashboard() {
     } catch (err) {
       console.log(err);
     }
-  }
+  };
 
-  const handleUpdateFood = async (food: FoodDataType): Promise<void> => {
+  const handleUpdateFood = (food: FoodDataType) => {
     try {
-      const foodUpdated = await api.put(`/foods/${editingFood.id}`, {
+      const foodUpdated = updateFood(editingFood.id, {
         ...editingFood,
         ...food,
       });
@@ -54,10 +53,8 @@ export default function Dashboard() {
   };
 
   const handleDeleteFood = async (id: number) => {
-    await api.delete(`/foods/${id}`);
-
+    deleteFood(id);
     const foodsFiltered = foods.filter((food) => food.id !== id);
-
     setFoods(foodsFiltered);
   };
 

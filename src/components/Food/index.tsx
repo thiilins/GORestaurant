@@ -1,24 +1,20 @@
 import { FiEdit3, FiTrash } from "react-icons/fi";
 import { useState } from "react";
 import { Container } from "./styles";
-import { api } from "../../services/api";
 import { FoodProps } from "../../types";
-
+import { useFoods } from "../../contexts/FoodContext";
 export default function Food({
   food,
   handleEditFood,
   handleDelete,
 }: FoodProps) {
+  const { toggleAvailable } = useFoods();
   const { available } = food;
   const [isAvailable, setIsAvailable] = useState(available);
 
-  const toggleAvailable = async () => {
-    await api.put(`/foods/${food.id}`, {
-      ...food,
-      available: !isAvailable,
-    });
-
-    setIsAvailable(!isAvailable);
+  const handleToogleAvailable = () => {
+    const isAvailable = toggleAvailable(food.id);
+    setIsAvailable(isAvailable);
   };
 
   const setEditingFood = () => {
@@ -65,7 +61,7 @@ export default function Food({
               id={`available-switch-${food.id}`}
               type="checkbox"
               checked={isAvailable}
-              onChange={toggleAvailable}
+              onChange={handleToogleAvailable}
               data-testid={`change-status-food-${food.id}`}
             />
             <span className="slider" />
