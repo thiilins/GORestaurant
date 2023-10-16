@@ -1,99 +1,88 @@
-<div align="center" id="top">
-  <a href="https://td-go-restaurant.vercel.app/"><img src="./.github/assets/cover.png" alt="Refactoring de classes e typescript" /></a>
-
-&#xa0;
+<div align="center" id='top'>
+  
+[🇧🇷 Português](./README.md) | [🇺🇸 English](./README_EN.md) | [🇪🇸 Español](./README_ES.md)
 
 </div>
 
-<h1 align="center">GORestaurant -  Refactoring de classes e typescript</h1>
+# Meu Projeto
 
-<p align="center">
-<img  alt="Repo size"  src="https://img.shields.io/github/repo-size/thiilins/GORestaurant?color=04D361&style=for-the-badge">
-<img  alt="GitHub top language"  src="https://img.shields.io/github/languages/top/thiilins/GORestaurant?color=04d361&style=for-the-badge"> <img  alt="GitHub language count"  src="https://img.shields.io/github/languages/count/thiilins/GORestaurant?color=04d361&style=for-the-badge"> <img alt="Licença" src="https://img.shields.io/github/license/thiilins/GORestaurant?color=04d361&style=for-the-badge">
+<div align="center">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/thiilins/GORestaurant?color=04d361&style=for-the-badge" /> -->
+![Capa do Projeto](./.github/assets/cover.png)
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/thiilins/GORestaurant?color=04d361&style=for-the-badge" /> -->
+[Ver Demonstração](https://td-go-restaurant.vercel.app/)
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/thiilins/GORestaurant?color=04d361&style=for-the-badge" /> -->
+[![Repo size](https://img.shields.io/github/repo-size/thiilins/GORestaurant?color=04D361&style=for-the-badge)](https://github.com/thiilins/GORestaurant)
+[![GitHub top language](https://img.shields.io/github/languages/top/thiilins/GORestaurant?color=04d361&style=for-the-badge)](https://github.com/thiilins/GORestaurant)
+[![GitHub language count](https://img.shields.io/github/languages/count/thiilins/GORestaurant?color=04d361&style=for-the-badge)](https://github.com/thiilins/GORestaurant)
+[![Licença](https://img.shields.io/github/license/thiilins/GORestaurant?color=04d361&style=for-the-badge)](https://github.com/thiilins/GORestaurant)
 
-</p>
+</div>
 
-<p align="center">
-  <a href="https://td-go-restaurant.vercel.app/">Demo</a> &#xa0; | &#xa0;
-  <a href="#dart-sobre-o-desafio">Sobre</a> &#xa0; | &#xa0;
-   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-pré-requesitos">Pré requisitos</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-começando">Começando</a> &#xa0; | &#xa0;
-  <a href="#thinking-como-contribuir">Como contribuir</a> &#xa0; | &#xa0;
-  <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
-  <a href="https://github.com/thiilins" target="_blank">Autor</a>
-</p>
+## 📖 Índice
 
-&#xa0;
+- [Sobre o Projeto](#-sobre-o-projeto)
+- [Capturas de Tela](#-capturas-de-tela)
+- [Instalação e Uso](#-instalação-e-uso)
+- [Tecnologias](#-tecnologias)
+- [Licença](#-licença)
+- [Como Contribuir](#-como-contribuir)
+- [Agradecimentos](#-agradecimentos)
+- [Contato](#-contato)
 
-<br>
-
-## :dart: Sobre o desafio
+## 📘 Sobre o Projeto
 
 Desafio 2 do módulo 2 da trilha de ReactJS da Rocketseat, essa será uma aplicação já funcional onde o seu principal objetivo é realizar dois processos de migração: de Javascript para Typescript e de Class Components para Function Components.,
 
-&#xa0;
+## 📷 Capturas de Tela
 
-## :rocket: Tecnologias
+#### Em Construção 🔨🚧
 
-As seguintes ferramentas foram usadas na construção do projeto:
+## 🚀 Instalação e Uso
+
+```bash
+# Clone este repositório:
+git clone https://github.com/thiilins/GORestaurant.git
+
+# Acesse o diretório do projeto:
+cd GORestaurant
+
+# Instale as dependências:
+yarn
+# ou
+npm install
+
+# Inicie a aplicação:
+yarn start
+
+# Acesse a aplicação em seu navegador em: `http://localhost:3000`
+```
+
+## 🛠 Tecnologias
 
 - [Expo](https://expo.io/)
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 
-&#xa0;
+## 📜 Licença
 
-## :white_check_mark: Pré requisitos
+Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para obter mais detalhes.
 
-Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.com) e o [Node](https://nodejs.org/en/) instalados em sua maquina.
+## 🤝 Como Contribuir
 
-&#xa0;
+1. **Fork** este repositório.
+2. Crie uma nova **branch** com suas modificações: `git checkout -b minha-feature`.
+3. Salve suas alterações e faça um commit explicando o que você fez: `git commit -m "Adicionando minha-feature"`.
+4. Envie suas alterações: `git push origin minha-feature`.
+5. Crie uma **pull request**.
 
-## :checkered_flag: Começando
+## 🙌 Agradecimentos
 
-```bash
-# Clone este repositório
-$ git clone https://github.com/thiilins/GORestaurant
+Agradecemos a todos os contribuidores que tornaram este projeto possível.
 
-# Entre na pasta
-$ cd GORestaurant
+## 📬 Contato
 
-# Instale as dependências
-$ yarn
-
-# Para iniciar o projeto
-$ yarn start
-
-# O app vai inicializar em <http://localhost:3000>
-```
-
-&#xa0;
-
-## :thinking: Como contribuir
-
-- Faça um fork desse repositório;
-- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
-- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
-- Faça push para a sua branch: `git push origin minha-feature`.
-
-Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
-
-&#xa0;
-
-## :memo: Licença
-
-Este projeto está sob licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
-
-Feito com :heart: por <a href="https://github.com/thiilins" target="_blank">Thiago Lins</a>
-
-&#xa0;
-
+Para sugestões, feedback ou dúvidas, abra uma [issue](https://github.com/seu-usuario/seu-projeto/issues) ou entre em contato através do meu [perfil no GitHub](https://github.com/seu-usuario).
 <p align="right">(<a href="#top">Voltar para o topo</a>)</p>
+
