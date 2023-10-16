@@ -4,7 +4,7 @@
 
 </div>
 
-# Meu Projeto
+# GORestaurant
 
 <div align="center">
 
